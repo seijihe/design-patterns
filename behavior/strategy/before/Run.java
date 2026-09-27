@@ -1,6 +1,6 @@
 package behavior.strategy.before;
 
-public class Process {
+public class Run {
     void main() {
         Order order01 = new EletronicOrder(100.00f);
         Float shipping01 = order01.calculateExpressShipping();
